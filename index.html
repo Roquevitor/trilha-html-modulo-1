@@ -1,62 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Meu Website</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <header>
+        <h1> Sobre HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Página Inicial</a></li>
+                <li><a href="#Estrutura">Estrutura HTML</a></li>
+                <li><a href="#conclusão">conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+    <main>
+        <section>
+            <h2 id="inicio">Introdução ao HTML</h2>
+            <hr>
+            <p>Aqui você pode aprender mais sobre HTML.</p>
+        </section>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <section>
+            <h2>Estrutura basica do HTML</h2>
+            <p id="Estrutura" style="font-size: large;"><u><mark> <strong>HTML (Hypertext Markup Language)</strong></u></mark> é a linguagem padrão
+                   usada para criar páginas da web. É uma linguagem de marcação que define
+                   a estrutura e o conteúdo de uma página da web, utilizando uma série de 
+                   elementos e tags que indicam ao navegador como exibir o conteúdo. Aqui
+                   está um texto destacado.<u><'!DOCTYPE html></u> declara o tipo de documento HTML.
+                   <u><'html></u> é o elemento raiz que envolve todo o conteúdo da página.
+                   <u><'head></u>contém metadados sobre a página, como o título e a codificação de caracteres.
+                   <u><'title></u> define o título da página, exibido na aba do navegador.
+                   <'body> contém todo o conteúdo visível da página.
+                   <'header>, <u><'nav></u>, <u><'main></u>, e <u><'footer></u> são elementos de seção que ajudam a organizar o conteúdo da página.
+                   <u><'h1></u>, <u><'h2></u>, <u><'p></u>, <u><'ul></u>, <u><'li></u>, e <u><'a></u> são elementos que definem cabeçalhos, parágrafos, listas e links, respectivamente.</p>
+            
+            <p><small>HTML é uma linguagem bastante versátil e é frequentemente combinada com CSS (Cascading Style Sheets) para estilizar o layout e com JavaScript para adicionar interatividade à página.</small></p>
+            <p><i>O HTML é complementado pelo CSS (Cascading Style Sheets) para estilização e pelo JavaScript para interatividade. Juntos, HTML, CSS e JavaScript formam a base da criação de páginas da web modernas e dinâmicas.</i></p>
+            <p>Existem vários aspectos do HTML sobre os quais você pode comentar. Aqui estão alguns tópicos comuns:</p>
+            <ol>
+                <li>Estrutura Básica do HTML:</li>
+                <ul><li>Descrição dos elementos principais: <'html>, <'head>, <'title>, <'body>.</li></ul>
+                <ul><li>Uso do DOCTYPE para definir a versão do HTML.</li></ul>
+                <ul><li>Importância da tag <'meta> para configurações como codificação de caracteres e viewport.</li></ul>
+                <li>Elementos de Texto:</li>
+                <ul><li>Diferentes tipos de cabeçalhos (`
+                  <'h1>`, `<'h2>`, `<'h3>`, etc.) e quando usá-los.
+                     - Utilização de parágrafos (`
+                  <'p>`) para organizar o conteúdo textual.
+                     - Uso de tags para enfatizar texto, como `<'strong>` e `<'em>`.</li></ul>
+                <li>Links e Âncoras:</li>
+                <ul><li>Como criar links para outras páginas ou recursos na web.</li></ul>
+                <ul><li>Inclusão de âncoras para navegação interna em uma página.</li></ul>
+                <li>Imagens e Mídia:</li>
+                <ul><li>Uso da tag <'img> para inserir imagens em uma página.</li></ul>
+                <ul><li>Incorporação de vídeos e áudios com tags como <'video> e '<'audio></li></ul>
+                <li>Listas:</li>
+                <ul><li>Uso de listas ordenadas (`<'ul>`) e não ordenadas (`<'ul>`). </li></ul>
+                
+                
+            </ol>
+            <p>Em suma, o HTML desempenha um papel fundamental na construção de páginas da web, fornecendo a estrutura básica e os elementos necessários para apresentar conteúdo na internet. Discutimos os principais componentes do HTML, desde a estrutura básica de um documento até elementos de texto, links, imagens, tabelas, formulários e estrutura semântica.</p>
+      
+            <p>Além disso, destacamos a importância da validação do HTML e da criação de páginas acessíveis para garantir uma experiência consistente e inclusiva para todos os usuários. Ao integrar o HTML com CSS e JavaScript, os desenvolvedores podem criar páginas da web atraentes e interativas, enquanto seguem as melhores práticas de desenvolvimento.</p>
+            <h3>REFERÊNCIA:</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sj0p9O85AIg?si=zchUebXgmt5SICke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
-
-</body>
-</html>
+            <p><a href="#inicio">Voltar ao inicio</a>.</p>
+            <hr>
+            <p id="conclusão"><small><i>Em última análise, o HTML é a espinha dorsal da web moderna, capacitando desenvolvedores a compartilhar informações, criar experiências digitais e conectar pessoas em todo o mundo. Ao compreender os princípios fundamentais do HTML e sua evolução contínua, estamos preparados para enfrentar os desafios e explorar as oportunidades que o mundo digital tem a oferecer.</i></small></p>
